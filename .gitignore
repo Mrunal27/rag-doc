@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# Docker
+*.log
+*.pid
+*.db
+*.sqlite
+*.tar
+*.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# FastAPI/OpenAI secrets
+.env
