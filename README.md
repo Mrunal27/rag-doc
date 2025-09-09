@@ -35,16 +35,17 @@ A modular Retrieval-Augmented Generation (RAG) system built with FastAPI, Docker
 git clone https://github.com/Mrunal27/rag-doc.git
 cd rag-doc
 
-### 2. Create .env File
+**### 2. Create .env File**
 touch .env
 ### Add your OPENAI API KEY
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-### 3. Build and Run with Docker
+**### 3. Build and Run with Docker**
 docker build -t rag-doc .
 docker run -p 8000:8000 rag-doc
 
-### 4. Test via Swagger UI
+**### 4. Test via Swagger UI**
 Visit
 http://localhost:8000/docs
 Upload a PDF and ask a question.
+
