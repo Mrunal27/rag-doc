@@ -28,31 +28,31 @@ A modular Retrieval-Augmented Generation (RAG) system built with FastAPI, Docker
 
 ---
 
-## 📦 Setup Instructions
-
-1. Clone the Repo
-
+⚙️ Setup Instructions
+1. Clone the Repository
 git clone https://github.com/Mrunal27/rag-doc.git
 cd rag-doc
 
-2. Create .env File
 
+2. Create Environment File
+Create a .env file to securely store your OpenAI API key:
 touch .env
 
-### Add your OPENAI API KEY
 
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Add the following line to .env:
+OPENAI_API_KEY="API_KEY"
 
-3. Build and Run with Docker
-
+3. Build and Run the Docker Container
 docker build -t rag-doc .
 docker run -p 8000:8000 rag-doc
 
-4. Test via Swagger UI
-Visit
+4. Access the Swagger UI
+Visit http://localhost:8000/docs to interact with the API.
 
-http://localhost:8000/docs
+5. Test the RAG Pipeline
+- Upload a PDF document via the Swagger interface
+- Ask a question based on the document content
+- Receive a context-aware response powered by OpenAI
 
-Upload a PDF and ask a question.
-
-
+---
+_#RetrievalAugmentedGeneration #GenerativeAI #BackendEngineering #MLPlatform #CareerPivot #OpenToWork_
